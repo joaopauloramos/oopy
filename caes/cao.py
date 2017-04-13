@@ -34,7 +34,7 @@ class Pequines(Cao):
     """
     nervoso = True
 
-class GrandeMixin(object):
+class GrandeMixin:
     """ Mixin: muda o latido"""
     def latir(self, vezes=1):
         # faz de conta que cães grandes não mudam

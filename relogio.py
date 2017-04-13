@@ -5,7 +5,7 @@ from time import strftime
 class Relogio(tkinter.Label):
 
     def __init__(self):
-        tkinter.Label.__init__(self)
+        super().__init__()
         self.pack()
         self['text'] = strftime('%H:%M:%S')
         self['font'] = 'Helvetica 120 bold'
